@@ -1,0 +1,1 @@
+export default function QRButton(){ return( <button className="btn btn-primary"> Escanear QR </button> ) }
