@@ -40,12 +40,12 @@ INSTALLED_APPS = [
        'rest_framework',
    'corsheaders',
 
-   'accounts',
-   'library',
-   'sundays',
-   'qr',
-   'resources',
-   'premium',
+   'apps.accounts',
+   'apps.library',
+   'apps.sundays',
+   'apps.qr',
+   'apps.resources',
+   'apps.premium',
 
 ]
 
