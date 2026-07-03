@@ -37,17 +37,20 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-       'rest_framework',
-   'corsheaders',
+    
+    # Librerías de Terceros
+    'rest_framework',
+    'corsheaders',
 
-   'accounts',
-   'library',
-   'sundays',
-   'qr',
-   'resources',
-   'premium',
-
+    # Aplicaciones Locales del Proyecto
+    'apps.accounts',
+    'apps.library',
+    'apps.sundays',
+    'apps.qr',
+    'apps.resources',
+    'apps.premium',
 ]
+
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
