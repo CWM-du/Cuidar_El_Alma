@@ -49,7 +49,9 @@ INSTALLED_APPS = [
     'apps.qr',
     'apps.resources',
     'apps.premium',
+    'apps.core.apps.CoreConfig',
 ]
+
 
 
 MIDDLEWARE = [
