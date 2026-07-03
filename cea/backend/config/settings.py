@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
     
     # Librerías de Terceros
     'rest_framework',
@@ -50,6 +51,7 @@ INSTALLED_APPS = [
     'apps.resources',
     'apps.premium',
     'apps.core.apps.CoreConfig',
+    
 ]
 
 
