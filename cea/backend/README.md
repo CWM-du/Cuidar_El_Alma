@@ -101,7 +101,7 @@ dividir un proyecto grande en piezas pequeñas y fáciles de mantener.
 3. Comprobar que todo funciona visitando:
 
    ```
-   http://127.0.0.1:8000/api/health
+   http://localhost:8000/api/health
    ```
 
 ## ✅ Endpoint de comprobación
@@ -129,8 +129,10 @@ dividir un proyecto grande en piezas pequeñas y fáciles de mantener.
 |--------|-----------------------------------------|
 | Hugo   | Scrum Master · Arquitectura principal   |
 | Darwin | Instalación de Django REST Framework    |
-| David  | Creación de la app `accounts`           |
+| David  | Integrante          |
 | Ernesto | Documentación                          |
+| Jaime | Creación de la app `accounts`                          |
+
 
 ## 📝 Criterios de aceptación (Product Owner)
 
